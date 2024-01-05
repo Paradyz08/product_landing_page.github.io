@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alata', sans-serif;
+}
+
+#nav-bar {
+  display: flex;
+  top: 0;
+  right: 0;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 30%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffe5b4;
+}
+
+#header-img {
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  border-right: 2px solid #000;
+}
+
+.nav-link {
+  text-decoration-color: #ff0000;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #913831;
+  padding: 20px;
+  gap: 10px;
+}
+
+#email {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 50%;
+}
+
+#submit {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #008000;
+  width: fit-content;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#Candies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  	background-color: #ff4433;
+}
+
+#video {
+  width: 80%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75); 
+  height: 300px;
+}
+
+.list-box {
+  color: #ffff00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.content-title {
+  color: #00ffff;
+  font-size: 30px;
+  font-weight: 600; 
+}
+
+.text-content {
+  color: #ffff00;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#Snacks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #de3163; 
+  padding: 20px 0;
+}
+
+.banner-img {
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+  width: 25%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+#Prices {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  padding: 20px 0;
+  background: linear-gradient( to right, #de3163, 	#ff4433)
+}
+
+.price-banner-box {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.title-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #954535;  
+  padding: 2px;
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.content {
+  padding: 10px;
+  color: #00ffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 500px){
+  .price-banner-box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+ #Snacks {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .banner-img {
+    width: 50%;
+ }
+}
